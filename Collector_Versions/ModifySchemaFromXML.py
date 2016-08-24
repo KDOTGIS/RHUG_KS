@@ -18,6 +18,11 @@ reapply versioning structure
 republish/overwrite map services
 resynchronize collector devices/downloads
 
+edit 8/24/2016
+OK - we arent going to do any of this - we are going to publish this to an Hosted Feature Service instead.  
+Way Simpler!
+Use the validate tool, create the file geodatabase from XML.  Import that file gdb to enterprise DB of choice.  
+Load data, publish, grab data from hosted service as needed for analysis or prioritization.  
 
 @author: kyleg
 '''
